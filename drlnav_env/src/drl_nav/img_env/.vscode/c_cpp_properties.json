@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/src/drl_nav/3rdparty/orca/collvoid_dwa_local_planner/include/**",
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/src/drl_nav/3rdparty/orca/collvoid_local_planner/include/**",
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/src/drl_nav/3rdparty/orca/collvoid_simple_global_planner/include/**",
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/src/drl_nav/comn_pkg/include/**",
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/src/drl_nav/3rdparty/ervo_ros/include/**",
+        "/home/car/ccdata_compress/ccdata/drlnav_env-main/src/drl_nav/3rdparty/pedsimros/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

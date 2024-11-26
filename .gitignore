@@ -1,0 +1,6 @@
+drlnav_env/build/
+drlnav_env/devel/
+drlnav_env/.vscode/
+
+LDP_expert/model/
+LDP_expert/__pycache__/
