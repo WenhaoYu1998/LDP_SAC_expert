@@ -30,13 +30,16 @@ $ conda env create -f expert_environment.yaml
 ```console
 # Open a new terminal
 [LDP_SAC_expert]$ cd drlnav_env
+[drlnav_env]$ source devel/setup.bash
 [drlnav_env]$ roslaunch img_env test.launch
 ```
 
 #### Training the expert policy
 ```console
 # Open another new terminal
-[LDP_SAC_expert]$ cd LDP_expert
+[LDP_SAC_expert]$ cd drlnav_env
+[drlnav_env]$ source devel/setup.bash # NOTE: This source instruction is very important.
+[drlnav_env]$ cd ../LDP_expert
 [LDP_expert]$ chmod +x run_drl_train.sh
 [LDP_expert]$ ./run_drl_train.sh
 ```
